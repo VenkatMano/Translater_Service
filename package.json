@@ -1,0 +1,32 @@
+{
+  "name": "translator",
+  "version": "1.0.0",
+  "description": "To Translate words",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "ts-node ./src/server.ts",
+    "start": "nodemon ./dist/server.js",
+    "prod": "npm run build && npm run start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VenkatMano/Translater_Service.git"
+  },
+  "keywords": [
+    "Translator"
+  ],
+  "author": "Venkatesh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VenkatMano/Translater_Service/issues"
+  },
+  "homepage": "https://github.com/VenkatMano/Translater_Service#readme",
+  "devDependencies": {
+    "typescript": "^3.2.4"
+  },
+  "dependencies": {
+    "express": "^4.16.4",
+    "ts-node": "^8.0.2"
+  }
+}
