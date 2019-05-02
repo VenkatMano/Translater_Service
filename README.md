@@ -1,13 +1,13 @@
-#Introduction#
+# Introduction #
 
 The DataAutomatter tool provides two main functionality
 
 1) Message Resource table export and import operations
 2) The internationalization json files export and import operations
 
-##Functionality Explanation##
+## Functionality Explanation ##
 
-1) ###Message Resource table ###
+1) ### Message Resource table ###
 
 	a) Export
 		
