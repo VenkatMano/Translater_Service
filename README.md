@@ -25,21 +25,21 @@ The DataAutomatter tool provides two main functionality
 
 2)  <h3> Internationalization json files </h3>
 
-	a) Export
+	    a) Export
 		
 		This functionality is used to export the json files to excel sheets in the following format
 		
 		Sheet Name - applicant-holder.json
 		
-	    ------------------------------------------------------------
-	   |                                                            | 
-	   | Key                           en       fr        zh-cn     |
-	   | applicantHolders~form~name    Name     Nom       Name	| 
-	   | applicantHolders~form~remark  Remarks  Remarque  Remarks   | 
-	    ------------------------------------------------------------
-	b) Import
+	  	  ------------------------------------------------------------
+	   	|                                                            | 
+	  	| Key                           en       fr        zh-cn     |
+	  	| applicantHolders~form~name    Name     Nom       Name	     | 
+	   	| applicantHolders~form~remark  Remarks  Remarque  Remarks   | 
+	   	 ------------------------------------------------------------
+	    b) Import
 	
-	    This functionality is used to save the edited key value sheets into json files in the same path. Writes the new values if all the keys are present, else throws missing key error.
+	        This functionality is used to save the edited key value sheets into json files in the same path. Writes the new values if all the keys are present, else throws missing key error.
 		
 <h2> Development Environment setup </h2>
 
