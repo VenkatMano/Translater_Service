@@ -1,13 +1,13 @@
-<h1>Introduction</h1>
+#Introduction#
 
 The DataAutomatter tool provides two main functionality
 
 1) Message Resource table export and import operations
 2) The internationalization json files export and import operations
 
-<h2>Functionality Explanation</h2>
+##Functionality Explanation##
 
-1) <h3>Message Resource table </h3>
+1) ###Message Resource table ###
 
 	a) Export
 		
@@ -23,7 +23,7 @@ The DataAutomatter tool provides two main functionality
 		
 	    This functionality is used to save the edited data from the excel sheet to the Message Resource table again
 
-2)  <h3> Internationalization json files </h3>
+2)  ### Internationalization json files ###
 
 	    a) Export
 		
@@ -41,9 +41,9 @@ The DataAutomatter tool provides two main functionality
 	
 	        This functionality is used to save the edited key value sheets into json files in the same path. Writes the new values if all the keys are present, else throws missing key error.
 		
-<h2> Development Environment setup </h2>
+## Development Environment setup ##
 
-	This tool is a maven spring boot command line project, so import it as a existing maven project in the eclipse.
+	This tool is a maven spring boot command line project, so **import it as a existing maven project in the eclipse**.
 	
 	
 	Operations supported
