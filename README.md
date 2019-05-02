@@ -43,7 +43,7 @@ The DataAutomatter tool provides two main functionality
 		
 ## Development Environment setup ##
 
-	This tool is a maven spring boot command line project, so **import it as a existing maven project in the eclipse**.
+	This tool is a maven spring boot command line project, so ** import it as a existing maven project in the eclipse **.
 	
 	
 	Operations supported
